@@ -1,5 +1,32 @@
 # Collegedunia
 
+# College Table
+
+This is a simple web application that displays a table of colleges along with their details such as rank, name, fees, placements, review ratings, and rankings.
+
+## Features
+
+- Display a table of colleges with various details.
+- Search functionality to filter colleges by name.
+- Responsive design.
+
+## Technologies Used
+
+- HTML
+- CSS (Bootstrap)
+- JavaScript
+
+## Usage
+
+1. Clone the repository to your local machine.
+2. Open the index.html file in your web browser.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
+
+
+#Additional
 This app is a task given by CollegeDunia
 
 Tech Stack - HTML,CSS,JS and Bootstrap!
