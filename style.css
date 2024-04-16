@@ -1,0 +1,122 @@
+body{
+    background: rgb(38, 38, 38);
+}
+
+.container-div {
+           /* Allows the container to expand based on the inner content */
+    margin: 0 auto;        /* Centers the container horizontally */
+    padding: 20px;         /* Adds some padding around the container */
+    display: flex;         /* Makes the container a flex container */
+    justify-content: center; /* Centers children horizontally */
+    align-items: center;   /* Centers children vertically */
+    height: 100vh; 
+    flex-direction: column;        /* Sets the height of the container to be the full viewport height */
+}
+
+.table-container {
+    /* margin-top: ; */
+    width: 60vw;        /* Sets max width to 90% of its parent container */
+    max-height: 600px;     /* Sets a maximum height for vertical scrolling */
+    overflow-y: auto;      /* Enables vertical scrolling if content overflows */
+    overflow-x: auto;      /* Enables horizontal scrolling if content overflows */
+    border: 1px solid #000000;/* Adds a light border for the table */
+}
+
+table {
+    width: 100%;           /* Ensures the table expands to fill the table container */
+    border-collapse: collapse; /* Collapses border so there's no space between them */
+}
+
+th, td {
+   
+    padding: 10px;         /* Increases padding for better readability */
+    text-align: left;      /* Aligns text to the left */
+    border-bottom: 1px solid #ddd; /* Adds a light line below each row */
+}
+
+th {
+    background-color: #84e089; /* Light grey background for header cells */
+}
+
+
+/* Increase width for specific columns */
+th:nth-child(1),
+td:nth-child(1) {
+    width: 10%; /* Adjust the width as needed */
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 20%; /* Adjust the width as needed */
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 20%; /* Adjust the width as needed */
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+    width: 20%; /* Adjust the width as needed */
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+    width: 10%; /* Adjust the width as needed */
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+    width: 20%; /* Adjust the width as needed */
+}
+
+tr:nth-child(even) {
+    background-color: #bae7ed; /* Light grey background for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #eaebeb; /* White background for odd rows */
+}
+
+
+.table-container {
+    
+    
+    overflow-y: auto;  /* Enables vertical scrolling */
+    overflow-x: auto;  /* Enables horizontal scrolling */
+    margin: 0 auto;    /* Centers the container */
+    border: 1px solid #ccc; /* Optional: adds a border around the scrollable area */
+}
+
+
+/* @media (max-width: 600px) {
+    .table-container {
+        max-width: 100%;
+        max-height: 300px;
+    }
+} */
+
+td img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle; /* Aligns the logo with the middle of the text line */
+    margin-right: 10px;     /* Adds some space between the logo and the text */
+}
+
+
+#collegeTable thead {
+    position: sticky;
+    top: 0;
+    background-color: #84e089; /* Header background color */
+    z-index: 100; /* Ensure it stays above other content */
+}
+
+
+
+.bg-orange {
+    background-color: orange !important;
+}
+
+.navbar-orange {
+    background-color: #f14107 !important;
+}
